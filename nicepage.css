@@ -38397,36 +38397,34 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 112px;
 }
 
 .u-header .u-image-1 {
-  width: 455px;
-  height: 64px;
-  margin: 22px auto 26px 0;
+  width: 570px;
+  height: 80px;
+  margin: 26px auto 6px;
 }
 
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
-}
-@media (max-width: 1199px) {
+
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 108px;
+  }
+
   .u-header .u-image-1 {
-    width: 455px;
+    width: 540px;
+    height: 76px;
   }
 }
-
-
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 112px;
+    min-height: 80px;
   }
 
   .u-header .u-image-1 {
     width: 340px;
     height: 48px;
-    margin-top: 38px;
-    margin-right: 0;
   }
 }
  .u-footer {
